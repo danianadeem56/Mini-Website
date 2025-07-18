@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>Casual Charm</h1>
+            <div class="cart" onclick="window.location.href='cart.html'">
+                <div class="cart-icon">👜</span> <span id="cart-count">0</span></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="products">
+        <h1>Welcome To My Shop</h1>
+    </div>
+
+    <div class="items" id="productsContainer">
+        <!-- Products inserted here by JS -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <h2>Casual Charm</h2>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="para">
+                <p>&copy; 2025 Casual Charm. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
